@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-gray-300;
+}
+
+.container {
+  @apply flex items-center justify-center mx-auto my-24 max-w-sm bg-white shadow-md rounded-xl;
+}
+
+.content {
+  @apply flex flex-col items-center justify-center py-5;
+}
+
+.content-image {
+  @apply h-80 w-80 mx-auto rounded-lg mb-4;
+}
+
+.content-heading {
+  @apply font-bold text-center text-2xl text-gray-700 px-7 mb-5;
+}
+
+.content-para {
+  @apply text-center text-gray-400 px-7 pb-5;
+}
